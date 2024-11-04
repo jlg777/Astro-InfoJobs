@@ -1,9 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro'
+import BentoInfo from '@components/BentoInfo.astro'
+import CoolJobs from '@components/CoolJobs.astro'
+import HeroSearch from '@components/HeroSearch.astro'
+import PreFooter from '@components/PreFooter.astro'
+import SocialBest from '@components/SocialBest.astro'
+import Layout from '@layouts/Layout.astro'
 ---
 
 <Layout title="InfoJobs - Bolsa de trabajo, ofertas de empleo">
   este es el contenido del slot
+  <HeroSearch />
+  <BentoInfo />
+  <SocialBest />
+  <CoolJobs />
+  <PreFooter />
 </Layout>
 
 <style>
