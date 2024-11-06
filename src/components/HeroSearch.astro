@@ -1,11 +1,45 @@
 <section class="mx-auto max-w-7xl px-4">
-    <div class="bg-cyan-100 mx-auto w-full rounded-3xl px-4 py-2">
-        <h1 class="text-black text-center text-2xl">Tu carrera empieza aqui</h1>
-        <search class="bg-white rounded-3xl">
-            <form action="">
+  <div class="bg-cyan-100 mx-auto w-full rounded-3xl px-4 py-2">
+    <h1 class="text-black text-center text-2xl font-semibold">Tu carrera empieza aqui</h1>
+    <search class="bg-white rounded-3xl p-4">
+      <form action="">
+        <div>
+          <select name="" id="" class="border-b border-gray-500 text-gray-500 w-full py-4">
+            <option value="" disabled selected>Nivel de estudios</option>
+            <option value="">bachillerato</option>
+            <option value="">Grando</option>
+            <option value="">Master</option>
+          </select>
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Estudios, puesto, empresa..."
+              class="border-b border-gray-500 text-gray-500 w-full py-4"
+            />
 
-            </form>
-            <button class="bg-orange-500 text-white rounded-3xl py-2 px-2 text-center min-w-full">buscar ofertas</button>
-        </search>
-    </div>
+            <input
+              type="text"
+              placeholder="Provincia o poblacion"
+              class="text-gray-500 w-full py-4"
+            />
+          </div>
+        </div>
+      </form>
+      <button
+        class="bg-orange-500 text-white rounded-3xl py-2 px-4 text-center min-w-full flex items-center space-x-2 justify-center"
+      >
+        <img src="image.png" alt="Buscar ofertas" class="w-4 h-4" />
+        <span>Buscar ofertas</span>
+      </button>
+    </search>
+    <footer>
+      <h5 class="text-black text-center">Explora los trabajos que se adapten a ti</h5>
+      <div class="flex flex-wrap gap-4 justify-center py-4">
+        <p class="bg-white rounded-full text-primary p-4">🌱 Sin experiencia</p>
+        <p class="bg-white rounded-full text-primary p-4">🚢 Findes</p>
+        <p class="bg-white rounded-full text-primary p-4">🕛 Media jornada</p>
+        <p class="bg-white rounded-full text-primary p-4">🗺️ Practicas</p>
+      </div>
+    </footer>
+  </div>
 </section>
